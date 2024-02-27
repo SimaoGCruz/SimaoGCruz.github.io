@@ -1,1 +1,0 @@
-# SimaoGCruz.github.io

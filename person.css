@@ -1,15 +1,21 @@
 body {
+  background-image: url(imagens/foto.png);
+  background-repeat: no-repeat;
+  background-size: 2178px 1226px;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
   background-color: rgb(0, 0, 0);
 }
 
 .textbox {
-  height: 200px;
-  width: 200px;
+  height: 330px;
+  width: 330px;
   position: absolute;
   top: 50%;
   bottom: 50%;
   margin-left: 30px;
-  margin-top: -120px;
+  margin-top: -170px;
 }
 
 .box {
@@ -22,30 +28,30 @@ body {
   width: 400px;
 }
 
-.text {
-    text-align: left;
+h1 {
+  text-align: left;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 30px;
   font-weight: bold;
   display: inline-block;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   color: black;
   border: none;
   text-decoration: none;
-  cursor: pointer;
 }
 
-.text::after {
-  content: '';
-  display:block;
-  width: 0px;
-  height: 3px;
-  background: black;
-  transition: 300ms;
-}
-
-.text:hover::after {
-  width: 100%;
+p {
+  text-align: left;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  color: black;
+  border: none;
+  text-decoration: none;
 }
 
 .logo {

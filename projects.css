@@ -12,6 +12,15 @@ body {
   margin-top: -150px;
 }
 
+.textbox2 {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
 .box {
   position: relative;
   left: 50%;
@@ -19,19 +28,78 @@ body {
   background-color: white;
   height: 400px;
   width: 400px;
-  margin-bottom: 70px;
+  margin-bottom: 15px;
+}
+
+.box2 {
+  display: inline-block;
+  background-color: white;
+  height: 400px;
+  width: 400px;
+}
+
+.box3 {
+  position: relative;
+  left: 50%;
+  margin: 115px 0 0 -200px;
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 80px;
 }
 
 .container {
-  margin-top: 15px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
 }
 
+.container2 {
+  margin-top: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 100px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 100px;
+}
+
 @media (max-width: 1245px) {
   .container {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 830px) {
+  .container2 {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 830px) {
+  .container3 {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 830px) {
+  .container4 {
       flex-direction: column;
   }
 }
@@ -49,6 +117,20 @@ body {
   width: 400px;
   position: absolute;
   margin-top: 20px;
+}
+
+.imagebox2 {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  height: 280px;
+  width: 400px;
+}
+
+.textimagebox2 {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  position: absolute;
 }
 
 h1 {

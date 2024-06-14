@@ -93,6 +93,18 @@ p {
   cursor: pointer;
 }
 
+.text3 {
+  text-align: left;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  display: inline-block;
+  color: black;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .back {
   height: 30px;
   width: 30px;
